@@ -1,22 +1,19 @@
 body {
-    background: url(image.png) repeat-y bottom left fixed bisque;
-    /*background-color: bisque;*/
-    opacity: 100% ;
-    color: black;
-    font-style: normal;
-    font-family: 'Times New Roman', Times, serif;
-    /*background-image: url(image.png);
-    background-repeat: repeat-y;
-    background-position: bottom left;
-    background-attachment: fixed;*/
+   background-color: yellowgreen;
+   background-image: url("image.jpg");
+   background-repeat: repeat-y;
+   background-size: auto;
+
 }
 img {
     padding-top: 0px;
     padding-left: 0px;
     padding-bottom: 0px;
     padding-right: 0px;
-    border: 5px solid rebeccapurple;
-    margin-left: 400px;
+    border: 2px solid rebeccapurple;
+    margin-left: 20px;
+    width: 400px;
+    height: 400px;
 }
 a:hover {
     background-color: whitesmoke;
@@ -58,11 +55,11 @@ h5:hover {
     color: white;
     padding-left: 0px;
     padding-right: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 .c1 {
-    background-color: black;
+    background-color: chartreuse;
     color: blue;
     text-align: center;
     margin-left: 550px;
@@ -73,7 +70,15 @@ h5:hover {
     background-color: blue;
     color: white;
     margin-right: 1000px;
-    padding-left: 200px;
+    padding-left: 100px;
+}
+.c2:hover {
+    background-color: salmon;
+    color: white;
+    padding-left: 10px;
+    padding-right: 0px;
+    margin-left: 100px;
+    margin-right: 1000px;
 }
 .a1 {
     margin-left: 0px;
